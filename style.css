@@ -1,11 +1,18 @@
+.h1{
+    text-align: center;
+    color: #3399ff;
+}
+
 .s_screen{
     width: 100%;
 }
 
 .s_show{
-    width: 100%;
+    position: relative;
+    margin: 20px 5%;
     height: 380px;
-    border: 1px solid rgb(255,180,50);
+    border: 2px solid #66ff00;
+    border-radius: 3px;
 }
 
 .s_send{

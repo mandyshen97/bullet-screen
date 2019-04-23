@@ -10,7 +10,7 @@ $(document).ready(function(){
         $(".s_txt").val(""); // 将文本框置为空
         // jQuery 动态创建一个div节点，节点里面是获取到的文本框中的值
         var $spanNode = $('<div class="text">'+content+'</div>');
-        var spanheight = (height-20) * Math.random(); 
+        var spanheight = height * Math.random(); 
         // 给新节点添加样式
         $spanNode.css({
             top: spanheight,
